@@ -1,0 +1,33 @@
+--inicializar repositorio do git
+git init 
+
+--alterar branch master para main
+git branch -m master main 
+
+--verifica o status do repositorio 
+git status 
+
+--comando para inserir um arquivo na proxima versão 
+git add nomedoarquivo.extensaodoarquivo
+
+--comando para inserir todas as modificações na proxima versão 
+git add .
+
+--comando para gerar uma nova versão
+git commit -m "breve descrição da versão"
+
+--verifica todas as versoes criadas
+git log 
+
+--comando para atualizar o nome do usuario (isso não é o usuario do github)
+git config --global user.name "Aluno Gabriel"
+
+--comando para atualizar o email do usuario (sao apenas infs locais)
+git config --global user.email "biel.cavalheri@gmail.com"
+
+--retornar um determinado commit (versao)
+git reset --hard iddocommit 
+
+--
+
+
