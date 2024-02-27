@@ -28,6 +28,8 @@ git config --global user.email "biel.cavalheri@gmail.com"
 --retornar um determinado commit (versao)
 git reset --hard iddocommit 
 
---
+--git reset --hard head~1 (volta uma versão, ~2 volta duas versões...)
+
+
 
 
